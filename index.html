@@ -1,2 +1,78 @@
-# BUTTONS
-creating buttons and styling them using html and CSS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,
+   initial-scale=1.0">
+  <title>Buttons</title> <!--This is the title for my web page-->
+
+  <!--internal styling for my html by using "style" tag inside head tag-->
+  <style>
+   
+    #SUBSCRIBE
+     {
+       background-color: rgb(200, 0, 0);
+       border: none;
+       color: white;
+       height: 56px;
+       width: 140px;
+       border-radius: 4px;
+       margin-right: 8PX;
+       cursor: pointer;
+       font-size: 18px;
+     }
+      #SUBSCRIBE:hover{
+          background-color:rgb(209, 87, 83)
+      }
+
+    #JOIN
+      {
+        height: 56px;
+        width: 90px;
+        color: rgb(41, 118, 211);
+        border-color: rgb(41, 118, 211) ;
+        border-style: solid;
+        border-radius: 4px;
+        border-width:1.7px ;
+        background-color: white;
+        font-size: 20px;
+        margin-right: 8px;
+        cursor: pointer;
+      }
+      #JOIN:hover{
+        color: white;
+        background-color: #2267cf;
+      }
+
+    #TWEET
+     {
+        color: white;
+        background-color: rgb(2, 164, 251);
+        border: none;
+        height: 56px;
+        width: 100px;
+        border-radius: 28px;
+        font-weight: 700;
+        font-size: 19px;
+        cursor: pointer; 
+     }
+      #TWEET:hover{
+        box-shadow: 2px 4px 9px rgb(183, 181, 181);
+      }
+
+  </style>
+</head>
+
+<!--unorder list with button class-->
+<body>
+   <nav>
+    <ul class="buttons">
+      <button id="SUBSCRIBE">SUBSCRIBE</button>
+      <button id="JOIN">JOIN</button>
+      <button id="TWEET">Tweet</button>
+    </ul>
+   </nav>
+   
+    
+</body>
+</html>
