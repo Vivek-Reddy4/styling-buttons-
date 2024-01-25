@@ -20,11 +20,14 @@
        margin-right: 8PX;
        cursor: pointer;
        font-size: 18px;
+       transition: opacity 0.15s;
      }
       #SUBSCRIBE:hover{
-          background-color:rgb(209, 87, 83)
+          opacity: 0.7;
       }
-
+      #SUBSCRIBE:active{
+           opacity:0.5;
+      }
     #JOIN
       {
         height: 56px;
@@ -38,10 +41,14 @@
         font-size: 20px;
         margin-right: 8px;
         cursor: pointer;
+        transition: color 1s,background-color 1s,opacity 1s;
       }
       #JOIN:hover{
         color: white;
         background-color: #2267cf;
+      }
+      #JOIN:active{
+         opacity:0.7;
       }
 
     #TWEET
@@ -55,6 +62,7 @@
         font-weight: 700;
         font-size: 19px;
         cursor: pointer; 
+        transition: box-shadow 1s
      }
       #TWEET:hover{
         box-shadow: 2px 4px 9px rgb(183, 181, 181);
@@ -71,8 +79,6 @@
       <button id="JOIN">JOIN</button>
       <button id="TWEET">Tweet</button>
     </ul>
-   </nav>
-   
-    
+   </nav>    
 </body>
 </html>
